@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALLFAHRI DESAIN | Creative Studio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="#beranda" class="logo">
+            ALLFAHRI<span>DESAIN.</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle">☰</button>
+
+        <nav id="navMenu">
+            <a href="#beranda">Beranda</a>
+            <a href="#layanan">Layanan</a>
+            <a href="#portofolio">Portofolio</a>
+            <a href="#tentang">Tentang</a>
+            <a href="#081293045208" class="nav-button">Hubungi Saya</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="beranda">
+        <div class="hero-content">
+            <p class="tagline">WELCOME TO MY ALLFAHRI DESAIN</p>
+
+            <h1>
+                Creative Design<br>
+                <span>For Your Future.</span>
+            </h1>
+
+            <p class="hero-description">
+                Selamat datang di ALLFAHRI DESAIN.
+                Kami menghadirkan desain kreatif, modern,
+                dan profesional untuk membantu ide kamu
+                menjadi karya visual yang menarik.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#portofolio" class="btn-primary">
+                    Lihat Portofolio
+                </a>
+                <a href="081293045208" class="btn-outline">
+                    Hubungi Saya
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="design-card">
+                <div class="card-circle"></div>
+                <p class="card-small">CREATIVE STUDIO</p>
+                <h2>DESIGN<br>YOUR<br>IDEAS.</h2>
+                <p class="card-footer">ALLFAHRI DESAIN © 2026</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- LAYANAN -->
+    <section class="section" id="layanan">
+        <div class="section-heading">
+            <p class="tagline">WHAT I DO</p>
+            <h2>Layanan <span>Desain</span></h2>
+            <p>Solusi desain kreatif untuk berbagai kebutuhan.</p>
+        </div>
+
+        <div class="service-grid">
+
+            <div class="service-card">
+                <div class="service-icon">✦</div>
+                <h3>Logo Design</h3>
+                <p>
+                    Membuat logo unik dan profesional
+                    untuk identitas brand kamu.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">▣</div>
+                <h3>Poster Design</h3>
+                <p>
+                    Desain poster menarik untuk promosi,
+                    acara, dan kebutuhan lainnya.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">◈</div>
+                <h3>Social Media</h3>
+                <p>
+                    Membuat konten visual modern
+                    untuk Instagram dan media sosial.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">▤</div>
+                <h3>Banner Design</h3>
+                <p>
+                    Desain banner kreatif untuk
+                    kebutuhan bisnis dan promosi.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PORTOFOLIO -->
+    <section class="section portfolio-section" id="portofolio">
+        <div class="section-heading">
+            <p class="tagline">MY CREATIVE WORK</p>
+            <h2>Porto<span>folio</span></h2>
+            <p>Beberapa contoh karya desain kreatif.</p>
+        </div>
+
+        <div class="portfolio-grid">
+
+            <div class="portfolio-card portfolio-one">
+        <img src="{{ url_for('static', filename='images/branding.jpg') }}"
+             alt="Branding Design"
+             class="portfolio-image">
+
+        <span>01 / BRANDING</span>
+        <h3>Brand Identity</h3>
+        <p>Creative visual identity</p>
+    </div>
+
+    <div class="portfolio-card portfolio-two">
+        <img src="{{ url_for('static', filename='images/poster.jpg') }}"
+             alt="Poster Design"
+             class="portfolio-image">
+
+        <span>02 / POSTER</span>
+        <h3>Modern Poster</h3>
+        <p>Creative poster design</p>
+    </div>
+
+    <div class="portfolio-card portfolio-three">
+
+    <img
+        src="{{ url_for('static', filename='images/social-media.jpg') }}"
+        alt="Social Media Design"
+        class="portfolio-image"
+    >
+
+    <span>03 / SOCIAL MEDIA</span>
+    <h3>Social Media</h3>
+    <p>Digital content design</p>
+
+    </div>
+
+</div>
+
+    </section>
+
+    <!-- TENTANG -->
+    <section class="section about-section" id="tentang">
+        <div class="about-content">
+            <p class="tagline">ABOUT THE STUDIO</p>
+            <h2>Tentang <span>ALLFAHRI DESAIN</span></h2>
+
+            <p>
+                ALLFAHRI DESAIN adalah sebuah creative studio
+                yang berfokus pada dunia desain grafis.
+                Kami percaya bahwa setiap ide memiliki
+                potensi untuk menjadi karya visual yang luar biasa.
+            </p>
+
+            <p>
+                Dengan kreativitas, inovasi, dan semangat belajar,
+                kami berusaha menghadirkan desain yang menarik,
+                modern, dan memiliki karakter.
+            </p>
+
+            <a href="#081293045208" class="btn-primary">
+                Mulai Proyek
+            </a>
+        </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section class="section contact-section" id="081293045208">
+        <div class="section-heading">
+            <p class="tagline">LET'S WORK TOGETHER</p>
+            <h2>Hubungi <span>Saya</span></h2>
+            <p>Punya ide desain? Mari kita wujudkan bersama.</p>
+        </div>
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert {{ category }}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <form action="{{ url_for('kirim_pesan') }}"
+              method="POST" class="contact-form">
+
+            <input type="text" name="allfahri"
+                   placeholder="RIZKY ALFAHRI" required>
+
+            <input type="email" name="yupkayu@gmail.com"
+                   placeholder="yupkayu@gmail.com" required>
+
+            <select name="layanan" required>
+                <option value="">Pilih layanan desain</option>
+                <option value="Logo Design">Logo Design</option>
+                <option value="Poster Design">Poster Design</option>
+                <option value="Social Media">Social Media</option>
+                <option value="Banner Design">Banner Design</option>
+                <option value="Lainnya">Lainnya</option>
+            </select>
+
+            <textarea name="pesan" rows="5"
+                      placeholder="desain interaktif, modern, dan profesional"
+                      required></textarea>
+
+            <button type="submit" class="btn-primary">
+                Kirim Pesan →
+            </button>
+        </form>
+    </section>
+
+<!-- PRICING SECTION -->
+<section class="pricing-section" id="pricing">
+
+    <div class="pricing-header">
+        <span class="pricing-label">OUR SERVICES</span>
+        <h2>Layanan & Harga</h2>
+        <p>Pilih layanan desain sesuai kebutuhan kamu.</p>
+    </div>
+
+    <div class="pricing-container">
+
+        <div class="pricing-card">
+            <h3>Desain Poster</h3>
+            <h2>Rp65.000</h2>
+            <p>Desain poster promosi kreatif.</p>
+            <ul>
+                <li>Desain profesional</li>
+                <li>2x revisi</li>
+                <li>File JPG / PNG</li>
+            </ul>
+            <a href="https://wa.me/6281293045208?text=Halo%20ALLFAHRI%20DESAIN,%20saya%20ingin%20memesan%20jasa%20Branding%20seharga%20Rp75.000."
+   class="pricing-button"
+   target="_blank"
+   rel="noopener noreferrer">
+   Pesan Sekarang
+</a>
+        </div>
+
+        <div class="pricing-card featured">
+            <span class="popular">POPULAR</span>
+            <h3>Branding</h3>
+            <h2>Rp75.000</h2>
+            <p>Bangun identitas brand kamu.</p>
+            <ul>
+                <li>Konsep identitas brand</li>
+                <li>2x revisi</li>
+                <li>File JPG / PNG</li>
+            </ul>
+            <a href="https://wa.me/6281293045208?text=Halo%20ALLFAHRI%20DESAIN,%20saya%20ingin%20memesan%20jasa%20Social%20Media%20seharga%20Rp50.000."
+   class="pricing-button"
+   target="_blank"
+   rel="noopener noreferrer">
+   Pesan Sekarang
+</a>
+        </div>
+
+        <div class="pricing-card">
+            <h3>Social Media</h3>
+            <h2>Rp50.000</h2>
+            <p>Konten media sosial menarik.</p>
+            <ul>
+                <li>3 desain postingan</li>
+                <li>2x revisi</li>
+                <li>File siap upload</li>
+            </ul>
+            <a href="https://wa.me/6281293045208?text=Halo%20ALLFAHRI%20DESAIN,%20saya%20ingin%20memesan%20Desain%20Poster%20seharga%20Rp65.000."
+   class="pricing-button"
+   target="_blank"
+   rel="noopener noreferrer">
+   Pesan Sekarang
+</a>
+        </div>
+
+    </div>
+</section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#beranda" class="logo">
+            ALLFAHRI<span>DESAIN.</span>
+        </a>
+
+        <p>Creative Ideas. Modern Designs. Better Future.</p>
+        <p class="copyright">
+            © 2026 ALLFAHRI DESAIN. All Rights Reserved.
+        </p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+<a
+    href="https://wa.me/6281293045208?text=Halo%20ALLFAHRI%20DESAIN,%20saya%20ingin%20bertanya%20tentang%20jasa%20desain."
+    class="whatsapp-button"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Hubungi kami melalui WhatsApp"
+>
+   <span class="wa-icon">
+    <svg xmlns="http://www.w3.org/2000/svg"
+         width="24"
+         height="24"
+         viewBox="0 0 24 24"
+         fill="none"
+         stroke="white"
+         stroke-width="2"
+         stroke-linecap="round"
+         stroke-linejoin="round">
+        <path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8
+        8.5 8.5 0 0 1-7.6 4.7
+        8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7
+        a8.4 8.4 0 0 1-.9-3.8
+        8.5 8.5 0 0 1 4.7-7.6
+        8.4 8.4 0 0 1 3.8-.9h.5
+        a8.5 8.5 0 0 1 8 8z"/>
+        <path d="M9 9a1 1 0 0 0-1 1
+        c0 3 3 6 6 6a1 1 0 0 0 1-1
+        l-1.5-1-1 1a6 6 0 0 1-2.5-2.5l1-1z"/>
+    </svg>
+</span>
+
+<span>Hubungi WhatsApp</span>
+
+</a>
+</body>
+</html>
